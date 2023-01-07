@@ -7,7 +7,7 @@ OUTPUT: fen code
 3. In reality, the model needs to be trained for each book cuz it isn't a convolutional net, so you will need to retrain
 '''
 from the_nn import *
-from chess_nn2 import jpg_to_fen
+from functions import jpg_to_fen
 
 model = NN.load_best_model()
 location = input("input the file path of the jpg file")
