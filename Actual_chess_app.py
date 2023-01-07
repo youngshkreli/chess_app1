@@ -9,6 +9,10 @@ OUTPUT: fen code
 from the_nn import *
 from functions import jpg_to_fen
 
-model = NN.load_best_model()
+try: #I don't know where the user is going to store the directory in their system, so they gotta enter some deets in the file
+    model = NN.load_best_model()
+except:
+    "Go to the file the_nn and enter the file path of the best_model4"
+    
 location = input("input the file path of the jpg file")
 print(jpg_to_fen(model, location))
