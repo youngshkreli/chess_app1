@@ -15,3 +15,4 @@ thought was to use os.getcwd(), but then the user still needs to cd into the cwd
 What have I learned?
 1) I need to investigate how to deal with not knowing where files are stored on the user's machine.
 2) I need to learn about convolutional layers.
+3) I'm a goober
