@@ -1,4 +1,8 @@
 # chess_app1
+
+Go to this link for a demonstration of the program: https://www.youtube.com/watch?v=k3DNo6S_yUU
+
+
 The purpose of this repo is to take an image of a chess position and translate it into fen code which can be used to analyze the position.
 This is my first repo: I know absolutely nothing about writing good code - let alone sharing it and having it work for users not named YoungShkreli. 
 
