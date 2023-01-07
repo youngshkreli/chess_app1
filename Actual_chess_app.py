@@ -10,5 +10,5 @@ from the_nn import *
 from chess_nn2 import jpg_to_fen
 
 model = NN.load_best_model()
-location = r"C:\Users\YoungShkreli\Pictures\chess_board_new.JPG"
+location = input("input the file path of the jpg file")
 print(jpg_to_fen(model, location))
