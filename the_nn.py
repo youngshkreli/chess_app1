@@ -27,7 +27,7 @@ class NN(nn.Module):
 
     @classmethod
     def load_best_model(cls):
-        path = r'C:\Users\YoungShkreli\PycharmProjects\deep_learning\best_model4'
+        path = input("enter the file path of the best nn file")
         device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         input_size = 30000
         num_classes = 13
