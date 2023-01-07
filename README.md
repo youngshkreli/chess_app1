@@ -2,6 +2,9 @@
 The purpose of this repo is to take an image of a chess position and translate it into fen code which can be used to analyze the position.
 This is my first repo: I know absolutely nothing about writing good code - let alone sharing it and having it work for users not named YoungShkreli. 
 
+How does it work?
+Program takes the image and then splits it into 64 squares. The individual square's image is then looked at by a neural network which then says what piece is on the square. This is done for all the squares and then this information is used to summarize the total position with FEN code. 
+
 Pros:
 1) This shit works amazing if you are looking at lichess/chess.com boards 
 
